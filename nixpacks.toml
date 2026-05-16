@@ -1,2 +1,2 @@
 [start]
-cmd = "npx ts-node src/app.ts"
+cmd = "node server.js"
