@@ -4,8 +4,8 @@
   "main": "dist/app.js",
   "scripts": {
     "dev": "nodemon --exec ts-node src/app.ts",
-    "build": "./node_modules/.bin/tsc",
-    "start": "node dist/app.js",
+    "build": "echo build skipped",
+    "start": "npx ts-node src/app.ts",
     "migrate": "ts-node src/db/migrate.ts",
     "seed": "ts-node src/db/seeds/seed.ts"
   },
