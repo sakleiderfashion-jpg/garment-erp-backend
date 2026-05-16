@@ -4,7 +4,7 @@
   "main": "dist/app.js",
   "scripts": {
     "dev": "nodemon --exec ts-node src/app.ts",
-    "build": "tsc",
+    "build": "npx tsc",
     "start": "node dist/app.js",
     "migrate": "ts-node src/db/migrate.ts",
     "seed": "ts-node src/db/seeds/seed.ts"
